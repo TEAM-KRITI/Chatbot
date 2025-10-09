@@ -21,7 +21,7 @@ async def clone_txt(client, message):
         bot_token = message.text.split("/clone", 1)[1].strip()
         mi = await message.reply_text("Please wait while I check the bot token.")
         try:
-            ai = Client(bot_token, API_ID, API_HASH, bot_token=bot_token, plugins=dict(root="RISHUCHATBOT/mplugin"))
+            ai = Client(bot_token, API_ID, API_HASH, bot_token=bot_token, plugins=dict(root="kriti_bot_update/mplugin"))
             await ai.start()
             bot = await ai.get_me()
             bot_id = bot.id
