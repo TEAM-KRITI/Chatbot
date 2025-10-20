@@ -430,7 +430,7 @@ async def ping(_, message: Message):
 
     ms = (datetime.now() - start).microseconds / 1000
     await loda.edit_text(
-        text=f"нey вαву!!\n{RISHUCHATBOT.name} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||** ⋆ʟᴏᴠᴇ ᴡɪᴛʜ⋆ [●𝐕𝚨𝐌𝐏𝐈𝐑𝚬●🥵❤️‍🔥](https://t.me/lllVAMPIRE_KINGll{OWNER_USERNAME}) **||</b>",
+        text=f"нey вαву!!\n{RISHUCHATBOT.name} ᴄʜᴀᴛʙᴏᴛ ιѕ alιve  αnd worĸιng ғιne wιтн a pιng oғ\n\n**➥** `{ms}` ms\n**➲ ᴄᴘᴜ:** {CPU}\n**➲ ʀᴀᴍ:** {RAM}\n**➲ ᴅɪsᴋ:** {DISK}\n**➲ ᴜᴘᴛɪᴍᴇ »** {UP}\n\n<b>||** ⋆ʟᴏᴠᴇ ᴡɪᴛʜ⋆ [ᴋʀɪᴛɪ ʙᴏᴛs](https://t.me/III_BADNAM_BABY_lll{OWNER_USERNAME}) **||</b>",
         reply_markup=InlineKeyboardMarkup(PNG_BTN),
     )
     if message.chat.type == ChatType.PRIVATE:
